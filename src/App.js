@@ -22,7 +22,7 @@ function App() {
       <div style={styles.inputContainer}>
         <input
           type="text"
-          placeholder="Enter task"
+          placeholder="Enter Tasks"
           value={task}
           onChange={(e) => setTask(e.target.value)}
           style={styles.input}
